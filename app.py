@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 nltk.download('punkt')
 nltk.download('stopwords')
-
+nltk.download('punkt_tab')
 ps = PorterStemmer()
 
 def transform_text(text):
